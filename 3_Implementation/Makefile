@@ -1,4 +1,4 @@
-PROJECT_NAME = all
+PROJECT_NAME = IMS
 
 BUILD_DIR = Build
 
@@ -7,7 +7,7 @@ src/pharma_delete.c\
 src/pharma_display.c\
 src/pharma_modify.c\
 src/pharma_search.c\
-
+0
 TEST_SRC = test/pharma_test.c\
 unity/unity.c\
 
