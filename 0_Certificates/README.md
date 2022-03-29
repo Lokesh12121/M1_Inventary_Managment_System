@@ -5,4 +5,4 @@
 * First day on github by Github Learning [[course_Repo1]](https://github.com/Lokesh12121/github-slideshow), [[course_Repo2]](https://github.com/Lokesh12121/markdown-portfolio)
 
   
-[HackerEarth Profile ](https://www.hackerearth.com/@lokeshramu8441)
+[HackerEarth Protofolio ](https://www.hackerearth.com/@lokeshramu8441)
