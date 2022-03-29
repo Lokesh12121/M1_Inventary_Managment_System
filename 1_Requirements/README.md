@@ -24,4 +24,4 @@
 
 
 ## 2. SWOT Analysis :
-  ![SWOT Analysis](http://url/to/img.png)
+  ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/swot_analysis.PNG)
