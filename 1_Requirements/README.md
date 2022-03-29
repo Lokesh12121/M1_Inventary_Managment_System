@@ -25,3 +25,8 @@
 
 ## 2. SWOT Analysis :
   ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/swot_analysis.PNG)
+  
+
+## 3.  Implementation Block Diagram :
+    ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/swot_analysis.PNG)
+
