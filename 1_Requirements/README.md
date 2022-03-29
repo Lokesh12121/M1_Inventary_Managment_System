@@ -32,7 +32,8 @@
   * Product is added at first 
   * Now product can be deleted or add new product
   * Modify or delete product
+  * We can search for product 
   * Display all the available product 
  
-   ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
+   ![Design Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
 
