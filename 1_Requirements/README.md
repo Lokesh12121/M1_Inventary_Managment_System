@@ -37,3 +37,4 @@
  
    ![Design Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
 
+## Tools : MS Word, MS Excel and Snipping tool
