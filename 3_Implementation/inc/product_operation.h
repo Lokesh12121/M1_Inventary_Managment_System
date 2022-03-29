@@ -1,6 +1,5 @@
 
 
-
 #ifndef __PHARMA_OPERATIONS_H__
 #define __PHARMA_OPERATIONS_H__
 
@@ -20,4 +19,4 @@ void AddMedicine(int number,struct Medicine m[]);
 void DeleteMedicine(int number);
 void UpdateMedicine(int number);
 
-#endif  
+#endif  /* __PHARMA_OPERATIONS_H__*/
