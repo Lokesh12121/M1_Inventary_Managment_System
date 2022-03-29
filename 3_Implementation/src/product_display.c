@@ -2,7 +2,7 @@
 
 #include<product_operations.h>
 
-void DisplayMedicine(int number)
+void DisplayProduct(int number)
 {
   int i;
   if(number!=0)
@@ -16,12 +16,12 @@ void DisplayMedicine(int number)
     {
       if(m[i].id!=0)
       {
-        printf("%-5d%-16s%-10d%-10d%-16s%-12s%-16s\n\n",m[i].id,m[i].medicneName,m[i].price,m[i].quantity,m[i].Company,m[i].Mfg_Date,m[i].Exp_Date);
+        printf("%-5d%-16s%-10d%-10d%-16s%-12s%-16s\n\n",m[i].id,m[i].productName,m[i].price,m[i].quantity,m[i].Company,m[i].Mfg_Date,m[i].Exp_Date);
       }
     }
   }
   else
   {
-    printf("\nNo Items or Medicines Available\n");
+    printf("\nNo Items or Products Available\n");
   }
 }

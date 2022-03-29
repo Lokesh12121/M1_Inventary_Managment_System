@@ -2,17 +2,17 @@
 
 #include<product_operations.h>
 
-void AddMedicine(int number,struct Medicine m[])
+void AddProduct(int number,struct Prod m[])
 {
   char name[100];
   
   
-  printf("Enter Medicine Id\n");
+  printf("Enter Product Id\n");
   scanf("%d",&(m[number].id));
   fflush(stdin);
   
-  printf("Enter Medicine Name\n");
-  scanf("%s",(m[number].medicneName));
+  printf("Enter Product Name\n");
+  scanf("%s",(m[number].productName));
   fflush(stdin);
   
   printf("Enter Company Name\n");
@@ -35,5 +35,5 @@ void AddMedicine(int number,struct Medicine m[])
   fflush(stdin);
   scanf("%d",&(m[number].price));
   
-  printf("Medicine with id %d Added Successfully\n",m[number].id);
+  printf("Product with id %d Added Successfully\n",m[number].id);
 }

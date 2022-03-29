@@ -1,5 +1,4 @@
 
-
 #ifndef __PRODUCT_OPERATIONS_H__
 #define __PRODUCT_OPERATIONS_H__
 
@@ -7,16 +6,16 @@
 #include<string.h>
 #include<ctype.h>
 
-struct Medicine
+struct Prod
 {
    int id,price,quantity;
-   char medicneName[100],Company[100],Mfg_Date[11],Exp_Date[11];
+   char productName[100],Company[100],Mfg_Date[11],Exp_Date[11];
 }m[100];
 
-void DisplayMedicine(int number);
-void SearchMedicine(int number);
-void AddMedicine(int number,struct Medicine m[]);
-void DeleteMedicine(int number);
-void UpdateMedicine(int number);
+void DisplayProduct(int number);
+void SearchProduct(int number);
+void AddProduct(int number,struct Prod m[]);
+void DeleteProduct(int number);
+void UpdateProduct(int number);
 
-#endif  /
+#endif  

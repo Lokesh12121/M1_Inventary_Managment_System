@@ -2,7 +2,7 @@
 
 #include<product_operations.h>
 
-void UpdateMedicine(int number)
+void UpdateProduct(int number)
 {
   int id,quantity,choice,c,i;
   printf("Enter id to change Details\n");
@@ -39,8 +39,8 @@ void UpdateMedicine(int number)
          printf("Enter Name to be update\n");
          fflush(stdin);
          scanf("%s",name);
-         strcpy(m[i].medicneName,name);
-         printf("Medicine Name updated Successfully\n");
+         strcpy(m[i].productName,name);
+         printf("Product Name updated Successfully\n");
         }
         if(choice==4)
         {

@@ -2,7 +2,7 @@
 
 #include<product_operations.h>
 
-void DeleteMedicine(int number)
+void DeleteProduct(int number)
 {
   int id,i,flag=0,num;
   printf("Enter Id to be deleted\n");
@@ -17,7 +17,7 @@ void DeleteMedicine(int number)
     m[i].id=0;
     m[i].price=0;
     m[i].quantity=0;
-    strcpy(m[i].medicneName,"");
+    strcpy(m[i].productName,"");
     strcpy(m[i].Company,"");
     strcpy(m[i].Mfg_Date,"");
     strcpy(m[i].Exp_Date,"");
@@ -27,6 +27,6 @@ void DeleteMedicine(int number)
   }
   if(flag==1)
   {
-   printf("Medicine with %d is Deleted Successfully\n",id);
+   printf("Product with %d is Deleted Successfully\n",id);
   }
 }

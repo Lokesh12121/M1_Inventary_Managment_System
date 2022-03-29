@@ -1,6 +1,4 @@
 
-
-
 #include <product_operations.h>
  
 int main()
@@ -13,7 +11,7 @@ int main()
     m[i].quantity=0;
     strcpy(m[i].Mfg_Date,"");
     strcpy(m[i].Exp_Date,"");
-    strcpy(m[i].medicneName,"");
+    strcpy(m[i].productName,"");
     strcpy(m[i].Company,"");
   }
   m[0].id=1;
@@ -21,38 +19,38 @@ int main()
   m[0].quantity=30;
   strcpy(m[0].Mfg_Date,"23-04-2021");
   strcpy(m[0].Exp_Date,"24-04-2022");
-  strcpy(m[0].medicneName,"Paracetmol");
+  strcpy(m[0].productName,"Paracetmol");
   strcpy(m[0].Company,"JK Pharma");
   
   do{
-      printf("Enter\n1 - Add Medicine\n2 - Update Medicine\n3 - Delete Medicine\n4 - Search Medicine\n5 - Display Medicine\n");
+      printf("Enter\n1 - Add Product\n2 - Update Product\n3 - Delete product\n4 - Search Product\n5 - Display Product\n");
       scanf("%d",&choice);
       switch(choice)
       {
           case 1:
           {
               ++number;
-              AddMedicine(number,m);
+              AddProduct(number,m);
               break;
           }
           case 2:
           {
-              UpdateMedicine(number+1);
+              UpdateProduct(number+1);
               break;
           }
           case 3:
           {
-              DeleteMedicine(number+1);
+              DeleteProduct(number+1);
               break;
           }
 	        case 4:
           {
-              SearchMedicine(number+1);
+              SearchProduct(number+1);
               break;
           }
 	        case 5:
           {
-              DisplayMedicine(number+1);
+              DisplayProduct(number+1);
               break;
           }
       }
