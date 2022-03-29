@@ -28,5 +28,11 @@
   
 
 ## 3.  Implementation Block Diagram :
-    ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
+
+  * Product is added at first 
+  * Now product can be deleted or add new product
+  * Modify or delete product
+  * Display all the available product 
+ 
+   ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
 
