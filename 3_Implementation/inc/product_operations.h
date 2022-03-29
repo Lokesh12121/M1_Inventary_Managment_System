@@ -1,7 +1,7 @@
 
 
-#ifndef __PHARMA_OPERATIONS_H__
-#define __PHARMA_OPERATIONS_H__
+#ifndef __PRODUCT_OPERATIONS_H__
+#define __PRODUCT_OPERATIONS_H__
 
 #include<stdio.h>
 #include<string.h>
@@ -19,4 +19,4 @@ void AddMedicine(int number,struct Medicine m[]);
 void DeleteMedicine(int number);
 void UpdateMedicine(int number);
 
-#endif  /* __PHARMA_OPERATIONS_H__*/
+#endif  /

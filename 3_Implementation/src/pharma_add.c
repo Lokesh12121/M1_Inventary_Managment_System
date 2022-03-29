@@ -1,6 +1,6 @@
 
 
-#include<product_operation.h>
+#include<product_operations.h>
 
 void AddMedicine(int number,struct Medicine m[])
 {
