@@ -22,3 +22,6 @@
    * With the use of simple interface with the screen, the person can manage or track his data.
    * Because without an inventory management system, the goods and products that flow through an organization will inevitably be in disarray. An inventory management system enables a company to maintain a centralized record of every asset and item in the control of the organization.
 
+
+## 2. SWOT Analysis :
+  ![SWOT Analysis](http://url/to/img.png)
