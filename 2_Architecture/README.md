@@ -16,7 +16,6 @@
   
    ![Structure Diagram](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/structure%20Diagrams/Structure1.drawio.PNG)
    
-  ## Tools 
-  * [Draw.io](https://app.diagrams.net/)
-  * [Creately](https://app.creately.com/diagram/create)
-
+## Tools 
+1.  [Draw.io](https://app.diagrams.net/)
+2.  [Creately](https://app.creately.com/diagram/create)
