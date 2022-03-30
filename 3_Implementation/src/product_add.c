@@ -1,5 +1,3 @@
-
-
 #include<product_operations.h>
 
 void AddProduct(int number,struct Prod m[])
