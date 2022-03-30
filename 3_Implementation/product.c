@@ -19,8 +19,8 @@ int main()
   m[0].quantity=30;
   strcpy(m[0].Mfg_Date,"23-04-2021");
   strcpy(m[0].Exp_Date,"24-04-2022");
-  strcpy(m[0].productName,"Paracetmol");
-  strcpy(m[0].Company,"JK Pharma");
+  strcpy(m[0].productName,"Classmate");
+  strcpy(m[0].Company,"ITC");
   
   do{
       printf("Enter\n1 - Add Product\n2 - Update Product\n3 - Delete product\n4 - Search Product\n5 - Display Product\n");
