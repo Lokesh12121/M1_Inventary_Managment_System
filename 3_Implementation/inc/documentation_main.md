@@ -1,2 +1,2 @@
-@mainpage Calculator Application by Bharath G
-@subpage calculator_operations.h
+@mainpage Inventory Management System by Lokesh R
+@subpage product_operations.h
