@@ -1,9 +1,9 @@
 /**
- * @file pharma_test.c
- * @author Karthik S (you@domain.com)
+ * @file product_test.c
+ * @author Lokesh R
  * @brief 
  * @version 0.1
- * @date 2021-09-06
+ * @date 2022-03-30
  * 
  * @copyright Copyright (c) 2021
  * 
