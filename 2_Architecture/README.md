@@ -14,17 +14,10 @@
    ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG
    
    
-   ## 3. User behavior diagram
+   ## 3. Structure Diagram
   
-  It decribes how the user will interface with the system, how the model works with certain input requested by system.
-  
-   ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG)
-   
-   ## 4. User behavior diagram
-  
-  It decribes how the user will interface with the system, how the model works with certain input requested by system.
-  
-   ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG)
+   ![Structure Diagram](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/structure%20Diagrams/Structure1.drawio.PNG)
+
    
    
    
