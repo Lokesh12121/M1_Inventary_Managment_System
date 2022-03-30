@@ -1,14 +1,14 @@
-PROJECT_NAME = product
+PROJECT_NAME = IMC
 
 BUILD_DIR = Build
 
-SRC = src/product_add.c\
-src/product_delete.c\
-src/product_display.c\
-src/product_modify.c\
-src/product_search.c\
+SRC = src/pharma_add.c\
+src/pharma_delete.c\
+src/pharma_display.c\
+src/pharma_modify.c\
+src/pharma_search.c\
 
-TEST_SRC = test/product_test.c\
+TEST_SRC = test/pharma_test.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
@@ -41,10 +41,10 @@ $(PROJECT_NAME):all
 .PHONY : all test coverage run clean doc
 
 all:$(BUILD_DIR)
-	gcc product.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
+	gcc pharma.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJECT_NAME).$(EXEC))
 
 coverageCheck:$(BUILD_DIR)
-	g++ -fprofile -arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 run: all
