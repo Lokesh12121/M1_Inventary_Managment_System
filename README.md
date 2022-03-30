@@ -26,7 +26,7 @@ Build Status| Code Quality | Unity | Git Inspector
 | 7_Other | Any essential files if needed
 | 4_Test_plan	| Documents with test plans and procedures
 
-## Research 
-1. Arsan, T., Başkan, E., Ar, E., & Bozkuş, Z. (2013). A software architecture for inventory management system. In Innovations and Advances in Computer, Information, Systems Sciences, and Engineering (pp. 15-27). Springer, New York, NY.
-2. Madamidola, O. A., Daramola, O. A., & Akintola, K. G. (2020). Web–based intelligent inventory management system. Education, 2023.
-3. Bronack, T. (2012). Inventory management system. Standards and Procedures Manual.
+## Research
+1.  Arsan, T., Başkan, E., Ar, E., & Bozkuş, Z. (2013). A software architecture for inventory management system. In Innovations and Advances in Computer, Information, Systems Sciences, and Engineering (pp. 15-27). Springer, New York, NY.
+2.  Madamidola, O. A., Daramola, O. A., & Akintola, K. G. (2020). Web–based intelligent inventory management system. Education, 2023.
+3.  Bronack, T. (2012). Inventory management system. Standards and Procedures Manual.
