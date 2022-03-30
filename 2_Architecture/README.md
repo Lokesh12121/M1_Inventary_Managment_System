@@ -3,9 +3,8 @@
   ## 1. Basic Block Diagram
   
    It gives information about the project, it tells about how the system works with minimal features.
-   
+  
    ![Block Diagram](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/BehaviourStruct.PNG)
-
 
   ## 2. User behavior diagram
   
@@ -13,17 +12,11 @@
   
    ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG)
    
-   
    ## 3. Structure Diagram
   
    ![Structure Diagram](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/structure%20Diagrams/Structure1.drawio.PNG)
-
    
-
-
-
-
 ## Tools 
-* [Draw.io](https://app.diagrams.net/)
-* [Creately](https://app.creately.com/diagram/create)
+  * [Draw.io](https://app.diagrams.net/)
+  * [Creately](https://app.creately.com/diagram/create)
 
