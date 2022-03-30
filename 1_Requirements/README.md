@@ -24,11 +24,11 @@ It can be used for any E-Commerce platorm either it can be pharma store, retail 
 ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/swot_analysis.PNG)
   
 ### 3. Implementation Block Diagram
-*  Product is added at first
-*  Now product can be deleted or add new product
-*  Modify or delete product
-*  We can search for product
-* Display all the available product
+1.  Product is added at first
+2.  Now product can be deleted or add new product
+3.  Modify or delete product
+4.  We can search for product
+5.  Display all the available product
  
 ![Design Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
 
