@@ -1,8 +1,7 @@
-
 #include "unity.h"
 #include "product_operations.h"
 
-#define PROJECT_NAME "pharma"
+#define PROJECT_NAME "product"
 
 /* Prototypes for all the test functions */
 void test_add_product(void);

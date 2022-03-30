@@ -1,4 +1,4 @@
-PROJECT_NAME = IMC
+PROJECT_NAME = product
 
 BUILD_DIR = Build
 
