@@ -1,4 +1,4 @@
-PROJECT_NAME = pharma
+PROJECT_NAME = prod
 
 BUILD_DIR = Build
 
