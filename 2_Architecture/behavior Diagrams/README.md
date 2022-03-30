@@ -1,4 +1,4 @@
-# Architecture
+# Behavior Diagrams
 
   ## 1. Basic Block Diagram
   
