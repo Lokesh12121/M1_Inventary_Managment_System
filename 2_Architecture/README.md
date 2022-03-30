@@ -11,7 +11,7 @@
   
   It decribes how the user will interface with the system, how the model works with certain input requested by system.
   
-   ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG
+   ![Behaviour Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/2_Architecture/behavior%20Diagrams/User_behaviour_flow.PNG)
    
    
    ## 3. Structure Diagram
