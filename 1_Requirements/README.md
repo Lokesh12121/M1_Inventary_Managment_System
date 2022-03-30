@@ -17,18 +17,18 @@ The apllication can be used to make improved cash flow, better reporting and for
 It can be used for any E-Commerce platorm either it can be pharma store, retail shop, personal inventory etc. to track products/Items in thier business or personal collection.
 
 ### How
-  * With the use of simple interface with the screen, the person can manage or track his data.
-  * Because without an inventory management system, the goods and products that flow through an organization will inevitably be in disarray. An inventory management system enables a company to maintain a centralized record of every asset and item in the control of the organization.
+1. With the use of simple interface with the screen, the person can manage or track his data.
+2. Because without an inventory management system, the goods and products that flow through an organization will inevitably be in disarray. An inventory management system enables a company to maintain a centralized record of every asset and item in the control of the organization.
 
 ### 2. SWOT Analysis
 ![SWOT Analysis](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/swot_analysis.PNG)
   
-### 3.  Implementation Block Diagram
-  * Product is added at first 
-  * Now product can be deleted or add new product
-  * Modify or delete product
-  * We can search for product 
-  * Display all the available product 
+### 3. Implementation Block Diagram
+* Product is added at first
+* Now product can be deleted or add new product
+* Modify or delete product
+* We can search for product
+* Display all the available product
  
 ![Design Flow](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/1_Requirements/designflow.PNG)
 
