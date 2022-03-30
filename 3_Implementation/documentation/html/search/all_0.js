@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['calculator_20application_20by_20bharath_20g_0',['Calculator Application by Bharath G',['../index.html',1,'']]]
+  ['inventory_20management_20system_20by_20lokesh_20r_0',['Inventory Management System by Lokesh R',['../index.html',1,'']]]
 ];
