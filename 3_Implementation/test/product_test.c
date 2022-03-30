@@ -5,7 +5,7 @@
  * @version 0.1
  * @date 2022-03-30
  * 
- * @copyright Copyright (c) 2021
+ * @copyright Copyright (c) 2022
  * 
  */
 #include "unity.h"
@@ -32,36 +32,36 @@ int main(void)
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_add_medicine);
-  RUN_TEST(test_delete_medicine);
-  RUN_TEST(test_modify_medicine);
-  RUN_TEST(test_search_medicine);
-  RUN_TEST(test_display_medicine);
+  RUN_TEST(test_add_product);
+  RUN_TEST(test_delete_product);
+  RUN_TEST(test_modify_product);
+  RUN_TEST(test_search_product);
+  RUN_TEST(test_display_product);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
-void test_add_medicine(void) {
-  TEST_ASSERT_EQUAL(0, add_medicine("Add_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+void test_add_product(void) {
+  TEST_ASSERT_EQUAL(0, add_product("Add_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
 }
 
-void test_delete_medicine(void) {
-  TEST_ASSERT_EQUAL(0, add_medicine("Delete_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
-  TEST_ASSERT_EQUAL(0, delete_medicine("Delete_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+void test_delete_product(void) {
+  TEST_ASSERT_EQUAL(0, add_product("Delete_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+  TEST_ASSERT_EQUAL(0, delete_product("Delete_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
 }
 
-void test_modify_medicine(void) {
-  TEST_ASSERT_EQUAL(0, add_medicine("Modify_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
-  TEST_ASSERT_EQUAL(0, modify_medicine("Modify_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234", "Modified_id", "mname1", "123", "123", "cname1", "11-11-1235", "11-10-1235"));
-  TEST_ASSERT_EQUAL(0, delete_medicine("Modified_id", "mname1", "123", "123", "cname1", "11-11-1235", "11-10-1235"));
+void test_modify_product(void) {
+  TEST_ASSERT_EQUAL(0, add_product("Modify_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+  TEST_ASSERT_EQUAL(0, modify_product("Modify_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234", "Modified_id", "mname1", "123", "123", "cname1", "11-11-1235", "11-10-1235"));
+  TEST_ASSERT_EQUAL(0, delete_product("Modified_id", "mname1", "123", "123", "cname1", "11-11-1235", "11-10-1235"));
 }
-void test_search_medicine(void) {
-  TEST_ASSERT_EQUAL(0, add_medicine("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
-  TEST_ASSERT_EQUAL(0 , search_medicine("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
-  TEST_ASSERT_EQUAL(0, delete_medicine("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+void test_search_product(void) {
+  TEST_ASSERT_EQUAL(0, add_product("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+  TEST_ASSERT_EQUAL(0 , search_product("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+  TEST_ASSERT_EQUAL(0, delete_product("Search_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
 }
-void test_display_medicine(void) 
+void test_display_product(void) 
 { 
-  TEST_ASSERT_EQUAL(1, display_medicine()>0);
+  TEST_ASSERT_EQUAL(1, display_product()>0);
 }
