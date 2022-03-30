@@ -1,3 +1,13 @@
+/**
+ * @file product_operations.h
+ * @author Lokesh R 
+ * @brief Interface for Add, Delete, Modify, Search and Display Products
+ * @version 0.1
+ * @date 2022-03-30
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 
 #ifndef __PRODUCT_OPERATIONS_H__
 #define __PRODUCT_OPERATIONS_H__
@@ -18,4 +28,4 @@ void AddProduct(int number,struct Prod m[]);
 void DeleteProduct(int number);
 void UpdateProduct(int number);
 
-#endif  
+#endif  /* _PRODUCT_OPERATIONS_H_ */
