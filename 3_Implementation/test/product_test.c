@@ -43,7 +43,7 @@ int main(void)
 }
 
 void test_add_product(void) {
-  TEST_ASSERT_EQUAL(0, add_product("Add_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
+  TEST_ASSERT_EQUAL(0, AddProduct("Add_1", "mname", "1234", "1234", "cname", "12-12-1234", "12-12-1234"));
 }
 
 void test_delete_product(void) {
