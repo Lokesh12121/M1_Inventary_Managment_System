@@ -11,14 +11,14 @@
 #include "unity.h"
 #include "product_operations.h"
 
-#define PROJECT_NAME "pharma"
+#define PROJECT_NAME "prod"
 
 /* Prototypes for all the test functions */
-void test_add_medicine(void);
-void test_delete_medicine(void);
-void test_modify_medicine(void);
-void test_search_medicine(void);
-void test_display_medicine(void);
+void test_add_product(void);
+void test_delete_product(void);
+void test_modify_product(void);
+void test_search_product(void);
+void test_display_product(void);
 
 /* Required by the unity test framework */
 void setUp(){}
