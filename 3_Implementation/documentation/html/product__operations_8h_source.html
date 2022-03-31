@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Inventory Manegament System: C:/Users/DELL/Desktop/M1_Inventary_Managment_System/3_Implementation/inc/product_operations.h Source File</title>
+<title>Inventory Management System: C:/Users/DELL/Desktop/M1_Inventary_Managment_System/3_Implementation/inc/product_operations.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Inventory Manegament System
+   <div id="projectname">Inventory Management System
    </div>
+   <div id="projectbrief">An inventory management system is the combination of technology (hardware and software) and processes procedures that oversee the monitoring and maintenance of stocked products, whether those products are company assets, raw materials and supplies.</div>
   </td>
  </tr>
  </tbody>
@@ -77,20 +78,29 @@ $(function() {
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include&lt;string.h&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include&lt;ctype.h&gt;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_prod.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_prod.html">Prod</a></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>   <span class="keywordtype">int</span> id,price,quantity;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>   <span class="keywordtype">char</span> productName[100],Company[100],Mfg_Date[11],Exp_Date[11];</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}m[100];</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> DisplayProduct(<span class="keywordtype">int</span> number);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> SearchProduct(<span class="keywordtype">int</span> number);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">void</span> AddProduct(<span class="keywordtype">int</span> number,<span class="keyword">struct</span> <a class="code hl_struct" href="struct_prod.html">Prod</a> m[]);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">void</span> DeleteProduct(<span class="keywordtype">int</span> number);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">void</span> UpdateProduct(<span class="keywordtype">int</span> number);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif  </span><span class="comment">/* _PRODUCT_OPERATIONS_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="astruct_prod_html"><div class="ttname"><a href="struct_prod.html">Prod</a></div><div class="ttdef"><b>Definition:</b> <a href="product__operations_8h_source.html#l00019">product_operations.h:20</a></div></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="struct_prod.html">   28</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_prod.html">Prod</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>   <span class="keywordtype">int</span> id,price,quantity;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>   <span class="keywordtype">char</span> productName[100],Company[100],Mfg_Date[11],Exp_Date[11];</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}m[100];</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="product__operations_8h.html#aca5dc1b9e2506c4842648f59b1bb0649">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="product__operations_8h.html#aca5dc1b9e2506c4842648f59b1bb0649">DisplayProduct</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="product__operations_8h.html#a194d252866b863b1603601690dd7296c">   42</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="product__operations_8h.html#a194d252866b863b1603601690dd7296c">SearchProduct</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="product__operations_8h.html#a55e51f17e5c044986c0339a81e49debd">   47</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="product__operations_8h.html#a55e51f17e5c044986c0339a81e49debd">AddProduct</a>(<span class="keywordtype">int</span> number,<span class="keyword">struct</span> <a class="code hl_struct" href="struct_prod.html">Prod</a> m[]);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="product__operations_8h.html#a087934e9311be5ed268ed56d7e64b0a8">   52</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="product__operations_8h.html#a087934e9311be5ed268ed56d7e64b0a8">DeleteProduct</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="product__operations_8h.html#a40c0bfa6cd6d0df25759bbc532e4f814">   57</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="product__operations_8h.html#a40c0bfa6cd6d0df25759bbc532e4f814">UpdateProduct</a>(<span class="keywordtype">int</span> number);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif  </span><span class="comment">/* _PRODUCT_OPERATIONS_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aproduct__operations_8h_html_a087934e9311be5ed268ed56d7e64b0a8"><div class="ttname"><a href="product__operations_8h.html#a087934e9311be5ed268ed56d7e64b0a8">DeleteProduct</a></div><div class="ttdeci">void DeleteProduct(int number)</div><div class="ttdoc">Deletes an item in Inventory.</div></div>
+<div class="ttc" id="aproduct__operations_8h_html_a194d252866b863b1603601690dd7296c"><div class="ttname"><a href="product__operations_8h.html#a194d252866b863b1603601690dd7296c">SearchProduct</a></div><div class="ttdeci">void SearchProduct(int number)</div><div class="ttdoc">Searches for an Item/Product in Inventory.</div></div>
+<div class="ttc" id="aproduct__operations_8h_html_a40c0bfa6cd6d0df25759bbc532e4f814"><div class="ttname"><a href="product__operations_8h.html#a40c0bfa6cd6d0df25759bbc532e4f814">UpdateProduct</a></div><div class="ttdeci">void UpdateProduct(int number)</div><div class="ttdoc">Updates/Modify an item in Inventory.</div></div>
+<div class="ttc" id="aproduct__operations_8h_html_a55e51f17e5c044986c0339a81e49debd"><div class="ttname"><a href="product__operations_8h.html#a55e51f17e5c044986c0339a81e49debd">AddProduct</a></div><div class="ttdeci">void AddProduct(int number, struct Prod m[])</div><div class="ttdoc">Adds an item in Inventory.</div></div>
+<div class="ttc" id="aproduct__operations_8h_html_aca5dc1b9e2506c4842648f59b1bb0649"><div class="ttname"><a href="product__operations_8h.html#aca5dc1b9e2506c4842648f59b1bb0649">DisplayProduct</a></div><div class="ttdeci">void DisplayProduct(int number)</div><div class="ttdoc">Displays all products/items in Inventory.</div></div>
+<div class="ttc" id="astruct_prod_html"><div class="ttname"><a href="struct_prod.html">Prod</a></div><div class="ttdoc">Creating structure named Prod.</div><div class="ttdef"><b>Definition:</b> product_operations.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
