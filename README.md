@@ -1,7 +1,9 @@
 ## Inventory Management System (IMS)
--   An inventory management system is the combination of technology (hardware and software) and processes and procedures that oversee the monitoring and maintenance of stocked products, whether those products are company assets, raw materials and supplies.
+-   An inventory management system is the combination of technology (hardware and software) and processes
+-   procedures that oversee the monitoring and maintenance of stocked products, whether those products are company assets, raw materials and supplies.
 -   A system for identifying every inventory item and its associated information, such as barcode labels or asset tags.
 -   Inventory management software, which provides a central database and point of reference for all inventory, coupled with the ability to analyze data, generate reports, forecast future demand, and more.
+
 ![IMS](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/6_ImagesAndVideos/Inventory_Manegment_System.PNG)
 
 ## Workflow Status
