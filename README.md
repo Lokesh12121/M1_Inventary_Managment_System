@@ -1,10 +1,4 @@
-## Inventory Management System (IMS)
--   An inventory management system is the combination of technology (hardware and software) and processes
--   procedures that oversee the monitoring and maintenance of stocked products, whether those products are company assets, raw materials and supplies.
--   A system for identifying every inventory item and its associated information, such as barcode labels or asset tags.
--   Inventory management software, which provides a central database and point of reference for all inventory, coupled with the ability to analyze data, generate reports, forecast future demand, and more.
-
-![IMS](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/6_ImagesAndVideos/Inventory_Manegment_System.PNG)
+# Inventory Management System (IMS)
 
 ## Workflow Status
 Build Status| Code Quality | Unity | Git Inspector 
@@ -16,6 +10,14 @@ Build Status| Code Quality | Unity | Git Inspector
 | :---: | :---: | 
 | Codacy - Static code analysis | Static code analysis 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/62f68bc0a58a4c46bb9565760421eb70)](https://www.codacy.com/gh/Lokesh12121/M1_Inventary_Managment_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lokesh12121/M1_Inventary_Managment_System&amp;utm_campaign=Badge_Grade) | ![Code Quality Score](https://api.codiga.io/project/32215/score/svg) ![Code Grade](https://api.codiga.io/project/32215/status/svg)
+
+## Inventory Management System (IMS)
+-   An inventory management system is the combination of technology (hardware and software) and processes
+-   procedures that oversee the monitoring and maintenance of stocked products, whether those products are company assets, raw materials and supplies.
+-   A system for identifying every inventory item and its associated information, such as barcode labels or asset tags.
+-   Inventory management software, which provides a central database and point of reference for all inventory, coupled with the ability to analyze data, generate reports, forecast future demand, and more.
+
+![IMS](https://github.com/Lokesh12121/M1_Inventary_Managment_System/blob/main/6_ImagesAndVideos/Inventory_Manegment_System.PNG)
 
 ## Folder Structure
 | Folder | Discription |
