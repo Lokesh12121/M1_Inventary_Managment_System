@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test -C M1_Inventary_Managment_System/3_Implementation/
-        valgrind ./M1_Inventary_Managment_System/3_Implementation/build/prod.out
+        make test -C 3_Implementation/ test
+        valgrind ./3_Implementation/build/prod.out
