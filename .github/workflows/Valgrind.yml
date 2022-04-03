@@ -21,7 +21,3 @@ jobs:
       run: |
         make test -C M1_Inventary_Managment_System/3_Implementation/
         valgrind ./M1_Inventary_Managment_System/3_Implementation/build/prod.out
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
